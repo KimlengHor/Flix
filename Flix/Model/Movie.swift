@@ -13,11 +13,17 @@ class Movie {
     var imageString: String
     var title: String
     var description: String
+    var releaseDate: String
+    var bannerString: String
+    var id: Double
     
-    init(imageString: String, title: String, description: String) {
+    init(imageString: String, title: String, description: String, releaseDate: String, bannerString: String, id: Double) {
         self.imageString = imageString
         self.title = title
         self.description = description
+        self.releaseDate = releaseDate
+        self.bannerString = bannerString
+        self.id = id
     }
     
     

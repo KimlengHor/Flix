@@ -10,6 +10,8 @@
 		041EC6F5DDA7D55A7B582749 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C30CD4512ADED59883058DE /* Pods_Flix.framework */; };
 		25C9DF7FB81CA35628206E71 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7404DB2CBF8E1BC124EFF1 /* Pods_FlixTests.framework */; };
 		2837F585E59DDEB0D7617DF9 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE80FD61C1994CEEF5FD2C8 /* Pods_FlixUITests.framework */; };
+		5C6229D12212A2080078CA27 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6229D02212A2080078CA27 /* DetailsViewController.swift */; };
+		5C8806B82215ED9500BA5F8A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8806B72215ED9500BA5F8A /* WebViewController.swift */; };
 		5C9552D422051A6C009791A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9552D322051A6C009791A6 /* AppDelegate.swift */; };
 		5C9552D622051A6C009791A6 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9552D522051A6C009791A6 /* MoviesViewController.swift */; };
 		5C9552D922051A6C009791A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9552D722051A6C009791A6 /* Main.storyboard */; };
@@ -19,6 +21,9 @@
 		5C9552F422051A6D009791A6 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9552F322051A6D009791A6 /* FlixUITests.swift */; };
 		5C95530222051C08009791A6 /* MoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95530122051C08009791A6 /* MoviesCell.swift */; };
 		5C95530422051E8B009791A6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95530322051E8B009791A6 /* Movie.swift */; };
+		5CEB806A22150F5A00B3B0F0 /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB806922150F5A00B3B0F0 /* SuperHeroViewController.swift */; };
+		5CEB806C22150FA000B3B0F0 /* SuperHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB806B22150FA000B3B0F0 /* SuperHeroCell.swift */; };
+		5CEB806E2215126C00B3B0F0 /* DataDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEB806D2215126C00B3B0F0 /* DataDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,8 @@
 		4505802A1049489EF6A1436B /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 		5B640DFD2584AAA5CE9AE3C3 /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
 		5BC61041AB524DB2B28DF148 /* Pods-FlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C6229D02212A2080078CA27 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5C8806B72215ED9500BA5F8A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		5C9552D022051A6C009791A6 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9552D322051A6C009791A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C9552D522051A6C009791A6 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +66,9 @@
 		5C9552F522051A6D009791A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C95530122051C08009791A6 /* MoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCell.swift; sourceTree = "<group>"; };
 		5C95530322051E8B009791A6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5CEB806922150F5A00B3B0F0 /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
+		5CEB806B22150FA000B3B0F0 /* SuperHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCell.swift; sourceTree = "<group>"; };
+		5CEB806D2215126C00B3B0F0 /* DataDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownload.swift; sourceTree = "<group>"; };
 		6D7404DB2CBF8E1BC124EFF1 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C30CD4512ADED59883058DE /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE80FD61C1994CEEF5FD2C8 /* Pods_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +116,42 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5C8806B12215D4F300BA5F8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C95530322051E8B009791A6 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C8806B22215D4FE00BA5F8A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB806922150F5A00B3B0F0 /* SuperHeroViewController.swift */,
+				5C6229D02212A2080078CA27 /* DetailsViewController.swift */,
+				5C9552D522051A6C009791A6 /* MoviesViewController.swift */,
+				5C8806B72215ED9500BA5F8A /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C8806B32215D51500BA5F8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C95530122051C08009791A6 /* MoviesCell.swift */,
+				5CEB806B22150FA000B3B0F0 /* SuperHeroCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C8806B42215D53900BA5F8A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB806D2215126C00B3B0F0 /* DataDownload.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		5C9552C722051A6C009791A6 = {
 			isa = PBXGroup;
 			children = (
@@ -131,14 +177,15 @@
 		5C9552D222051A6C009791A6 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				5C8806B42215D53900BA5F8A /* Service */,
+				5C8806B32215D51500BA5F8A /* View */,
+				5C8806B22215D4FE00BA5F8A /* Controller */,
+				5C8806B12215D4F300BA5F8A /* Model */,
 				5C9552D322051A6C009791A6 /* AppDelegate.swift */,
-				5C9552D522051A6C009791A6 /* MoviesViewController.swift */,
 				5C9552D722051A6C009791A6 /* Main.storyboard */,
 				5C9552DA22051A6D009791A6 /* Assets.xcassets */,
 				5C9552DC22051A6D009791A6 /* LaunchScreen.storyboard */,
 				5C9552DF22051A6D009791A6 /* Info.plist */,
-				5C95530122051C08009791A6 /* MoviesCell.swift */,
-				5C95530322051E8B009791A6 /* Movie.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -384,9 +431,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C9552D622051A6C009791A6 /* MoviesViewController.swift in Sources */,
+				5C8806B82215ED9500BA5F8A /* WebViewController.swift in Sources */,
 				5C95530222051C08009791A6 /* MoviesCell.swift in Sources */,
 				5C95530422051E8B009791A6 /* Movie.swift in Sources */,
 				5C9552D422051A6C009791A6 /* AppDelegate.swift in Sources */,
+				5CEB806A22150F5A00B3B0F0 /* SuperHeroViewController.swift in Sources */,
+				5CEB806C22150FA000B3B0F0 /* SuperHeroCell.swift in Sources */,
+				5C6229D12212A2080078CA27 /* DetailsViewController.swift in Sources */,
+				5CEB806E2215126C00B3B0F0 /* DataDownload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
