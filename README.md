@@ -38,7 +38,7 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthough GIF
 
-<img src="http://recordit.co/Le7ZwCmoFH" width=250><br>
+<img src="http://g.recordit.co/Le7ZwCmoFH.gif" width=250><br>
 
 ### Notes
 It is really fun to do this app. I don't find it hard because videos from CodePath really helps alot.
